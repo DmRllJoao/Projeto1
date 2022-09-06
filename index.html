@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Curso Web Developer</title>
+        <meta charset="utf-8">
+        
+    
+        <style>
+            body{
+                width: 100%;
+                margin: 0;
+                background-color: #CCCCCC;
+                font-family: sans-serif;
+            }
+            header{
+                background-image: url(imagens/bg-4.jpg);
+                background-size: cover;
+                background-attachment: scroll;
+                background-position: right center;
+                height: 650px;
+                border-top: 1px solid transparent;
+                
+            }
+            /*                               Navegação                                       */
+            
+            a{
+                color: #EEEDE3;
+                text-decoration: none;
+                display: block;
+                padding: 10px;
+            }
+            a:hover{
+                background-color: rgba(37, 37, 37, 0.72);
+            }
+            
+            ul{
+                text-align: right;
+                margin-right: 15px;
+            }
+            
+            ul > li{
+                list-style-type: none;
+                display: inline-block;
+                margin: 8px;
+                background-color:rgba(168, 165, 159, 0.74);
+                border: solid 1px #EEEDE3;
+
+            }
+            /*                               Navegação                                       */
+            
+            
+            /*                               Apresentação                                       */
+            .apresentacao{
+                width: 50%;
+                margin-left: 25%;
+                margin-top: 10%
+            }
+            .apresentacao > h1{
+                font-size: 70px;
+                text-align: center;
+                color: #EEEDE3;
+                text-transform: uppercase;
+                text-shadow: 3px 3px 2px #333;
+                
+            }
+            .apresentacao > p{
+                text-align: center;
+                margin-left: 31%;
+                border-bottom: solid 2px #EEEDE3;
+                width: 36%;
+                color: #EEEDE3;
+                background-color: rgba(37, 37, 37, 0.72);
+                padding: 10px;
+            }
+            /*                               Apresentação                                       */
+            
+            
+            /*                               Main                                       */
+            main{
+                width: 80%;
+                margin: auto;
+            }
+            
+            section{
+                padding: 10px;
+                margin-top: 20px;
+                background-color: #EEEDE3;
+                overflow: auto;            }
+            
+            section > .card{
+               float: left;
+            
+                
+            }
+            .card{
+                box-sizing: border-box;
+                margin-left: 10px;
+                width: 32%;
+            }
+            .card > p{
+                background-color: #464646;
+                padding: 10px;
+                margin-top: 0;
+            }
+            img{
+                display: block;
+                width: 100%;
+            }
+            /*                               Main                                       */
+            /*                               Section 2                                       */
+            
+            h2{
+                background-color: #ccc;
+                padding: 10px;
+                border-bottom: solid 3px black;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            section > article > p{
+                margin-left: 15px
+                
+            }
+            
+            footer{
+                background-color: #6B6C68;
+                height: 80px;
+                line-height: 80px;
+                color: white;
+                text-align: center;
+                margin-top: 20px;
+                text-shadow: 2px 2px 2px black;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <div id="principal">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#">INÍCIO</a></li>
+                        <li><a href="#">QUEM SOU EU</a></li>
+                        <li><a href="#">CONTATO</a></li>
+                    
+                    </ul>
+                </nav>
+                
+                <div class="apresentacao">
+                    <h1>Curso Web Fundamentos</h1>
+                    <p>Aprenda HTML, CSS e Javascript</p>
+                </div>
+            </header>
+            <main>
+                
+                
+                <section>
+                    <div class="card">
+                        <img src="imagens/card_01.png">
+                        <p>SELETORES</p>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="imagens/card_02.jpg">
+                         <p>POSICIONAMENTO</p>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/card_03.jpg">
+                         <p>FONTES E ÍCONES</p>
+                    </div>
+                </section>
+                
+                
+                <section>
+                    <article>
+                        <h2>titulo</h2>
+                        <p>Primeiro parágrafo de exemplo</p>
+                        <p>Segundo parágrafo de exemplo</p>
+                    </article>
+                </section>
+            
+            
+            </main>
+            
+            <footer>
+                <span>
+                copyright @ 2022
+                </span>
+                
+            </footer>
+            
+        
+        </div>
+    
+    
+    </body>
+
+
+
+
+
+</html>
